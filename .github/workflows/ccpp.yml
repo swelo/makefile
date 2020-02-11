@@ -13,4 +13,13 @@ jobs:
       run: make
     - name: make check
       run: make check
+      - name: Zip Release
+      uses: TheDoctor0/zip-release@v0.2.1
+      with:
+     # Filename for archive
+     filename: # default is release.zip
+     # Base path for archive files
+     path: # optional, default is .
+     # List of excluded files/directories
+    exclusions: # optional, default is 
 
