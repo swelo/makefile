@@ -25,7 +25,6 @@ jobs:
           prerelease: false
           
           
-          
       - name: Zip Release
         uses: TheDoctor0/zip-release@v0.2.1
         with:
