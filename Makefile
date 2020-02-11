@@ -24,7 +24,7 @@ all: $(TARGET_BINARY)
 
 check:$(TARGET_BINARY)
 	@#Execute binary and verify output, it returns 0 (success) or 1 (fail)
-	[ "$$($(TARGET_BINARY))" = "Hello World!" ]
+	[ "$$($(TARGET_BINARY))" = "Hello world!" ]
 
 clean:
 	rm -f $(TARGET_BINARY)
